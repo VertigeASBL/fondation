@@ -1,0 +1,13 @@
+<plugin>
+  <nom>Fondation SPIP</nom>
+  <auteur>Vertige asbl</auteur>
+  <licence>GNU/GPL</licence>
+  <version>1.0.0</version>
+  <description>
+    Un plugin qui jète de bonnes bases pour commencer un site spip !
+  </description>
+  <etat>dev</etat>
+  <prefix>fondation</prefix>
+  <lien>http://foundation.zurb.com/docs/</lien>
+  <necessite id="Z" version="[1.7.17;]" />
+</plugin>
