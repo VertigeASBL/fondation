@@ -39,6 +39,19 @@
 
 [(#REM) -- fin foundation -- ]
 
+[(#REM) le CSS gère les borders et paddings d'une façon plus naturelle
+cf : http://paulirish.com/2012/box-sizing-border-box-ftw/
+et : https://github.com/Schepp/box-sizing-polyfill
+]
+<style type="text/css">
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(#CHEMIN{iehacks/boxsizing.htc});
+}
+</style>
+
 [(#REM) Balise permettant aux plugins d'inserer des fichiers CSS ]
 #INSERT_HEAD_CSS
 
