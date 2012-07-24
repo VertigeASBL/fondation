@@ -9,5 +9,6 @@
   <etat>dev</etat>
   <prefix>fondation</prefix>
   <lien>http://foundation.zurb.com/docs/</lien>
+  <fonctions>fondation_fonctions.php</fonctions>
   <necessite id="Z" version="[1.7.17;]" />
 </plugin>
