@@ -1,0 +1,6 @@
+#SET{erreur, #ENV**{erreurs}|table_valeur{#ENV{nom}}}
+<label for="#ENV{nom}"[(#GET{erreur}|oui) class="red"]>
+  #ENV{label}
+</label>
+<textarea id="text" name="#ENV{nom}"[ class="(#ENV{class})"]>#ENV{#ENV{nom}}</textarea>
+[<small class="error">(#GET{erreur})</small>]

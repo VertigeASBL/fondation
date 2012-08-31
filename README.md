@@ -26,3 +26,8 @@ Le modèle infobulle.html permet aux rédacteurs de facilement ajouter des infob
     <infobulle
        |texte=Le texte qui apparait dans l'article
        |bulle=le texte qui apparait dans la bulle>
+
+Saisies
+-------
+
+Le dossier saisie contient des squelettes à inclure qui s'utilisent comme le plugin saisie, mais qui suivent le modèle du framework foundation. Pour l'instant il n'y a que les saisies de type text et textarea, mais l'idée est d'ajouter le reste au fur et à mesure qu'on en a besoin. Il y a aussi un début de plugin jQuery pour valider des formulaires qui suivent ce modèle. 

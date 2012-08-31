@@ -1,0 +1,7 @@
+  #SET{erreur, #ENV**{erreurs}|table_valeur{#ENV{nom}}}
+  <label for="#ENV{nom}"[(#GET{erreur}|oui) class="red"]>
+    #ENV{label}
+  </label>
+  <input id="#ENV{nom}" name="#ENV{nom}" type="text"
+         class="input-text[ (#ENV{class})]" value="#ENV{#ENV{nom}}">
+  [<small class="error">(#GET{erreur})</small>]
