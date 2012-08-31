@@ -17,3 +17,12 @@ La balise `#GLOBALS`
 --------------------
 
 La balise `#GLOBALS` permet de récupérer le contenu du tableau `$GLOBALS` dans les squelettes. On peut alors définir des variables dans `config/mes_options.php` et s'en servir partout dans les squelettes. Par exemple, au lieu d'utiliser un obscur `id_rubrique=123`, on préférera `id_rubrique=#GLOBALS{id_rubrique_membre}` avec `$GLOBALS['id_rubrique_membre'] = 123;` dans `config/mes_options.php`. L'intérêt est que les changements se font à un seul endroit, mais surtout que les squelettes sont beaucoup plus compréhensibles lorsqu'on doit les modifier quelques mois plus tard.
+
+Infobulles
+----------
+
+Le modèle infobulle.html permet aux rédacteurs de facilement ajouter des infobulles dans leurs articles. Elle s'utilisent de la façon suivante : 
+
+    <infobulle
+       |texte=Le texte qui apparait dans l'article
+       |bulle=le texte qui apparait dans la bulle>
