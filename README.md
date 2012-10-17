@@ -6,7 +6,9 @@ Un plugin qui jète de bonnes bases pour commencer un site spip ! Nécessite le 
 Le Framework Foundation
 -----------------------
 
-Ce plugin inclus le framework Foundation, qui inclut un reset CSS, une grille css reponsive, le js nécessaire pour faire passer le HTML5 dans IE, et plein d'autres choses utiles qui permettent d'accélerer le développement (tabs, tooltips, menus déroulants etc). La doc se trouve sur [http://foundation.zurb.com/docs/](http://foundation.zurb.com/docs/).
+Ce plugin inclus le framework Foundation, qui inclut un reset CSS, une grille css reponsive, le js nécessaire pour faire passer le HTML5 dans IE, et plein d'autres choses utiles qui permettent d'accélerer le développement (tabs, tooltips, menus déroulants etc). La doc se trouve sur [http://foundation.zurb.com/docs/f2/](http://foundation.zurb.com/docs/f2/).
+
+**Attention !** La version du framework incluse dans le plugin est la version 2. La version courante est la 3, mais elle ne supporte plus IE7…
 
 Des modèles pour la charte typographique
 ----------------------------------------
