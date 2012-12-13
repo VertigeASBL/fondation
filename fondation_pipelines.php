@@ -13,7 +13,7 @@ function fondation_jquery_plugins ($scripts) {
 
 function fondation_insert_head ($flux) {
 
-  return recuperer_fond('inclure/insert_head', array()) . $flux;
+  return $flux . recuperer_fond('inclure/insert_head', array());
 }
 
 ?>
