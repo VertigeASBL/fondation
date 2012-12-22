@@ -6,9 +6,9 @@
   <description>
     Un plugin qui jète de bonnes bases pour commencer un site spip !
   </description>
-  <etat>dev</etat>
+  <etat>stable</etat>
   <prefix>fondation</prefix>
-  <lien>http://foundation.zurb.com/docs/</lien>
+  <lien>http://foundation.zurb.com/docs/f2/</lien>
   <fonctions>fondation_fonctions.php</fonctions>
   <necessite id="Z" version="[1.7.17;]" />
 </plugin>

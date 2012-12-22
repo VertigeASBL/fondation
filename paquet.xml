@@ -2,10 +2,10 @@
 	prefix="fondation"
 	categorie="outil"
 	version="1.0.0"
-	etat="dev"
+	etat="stable"
 	compatibilite="[3.0.1;3.0.*]"
 	logo=""
-	documentation="http://foundation.zurb.com/docs/"
+	documentation="http://foundation.zurb.com/docs/f2/"
 >
 	<!--
 		Paquet généré le 2012-06-25 09:26:24
