@@ -11,4 +11,12 @@ function calculer_balise_GLOBALS($nom) {
   return $GLOBALS[$nom];
 }
 
+/*
+  Dump proprement n'importe quelle variable dans le fichier tmp/log/debug.log
+  Pas testé sur spip 2.1
+ */
+function dbg($msg) {
+  spip_log(var_export($msg, TRUE), 'debug'._LOG_AVERTISSEMENT);
+}
+
 ?>
