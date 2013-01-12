@@ -1,7 +1,7 @@
 <paquet
 	prefix="fondation"
 	categorie="outil"
-	version="1.0.0"
+	version="2.0.0"
 	etat="dev"
 	compatibilite="[3.0.1;3.0.*]"
 	logo=""
@@ -11,7 +11,7 @@
 		Paquet généré le 2012-06-25 09:26:24
 	-->
 
-	<nom>Fondation</nom>
+	<nom>Fondation3 - compass</nom>
 
 	<auteur>Vertige asbl</auteur>
 

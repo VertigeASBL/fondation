@@ -1,10 +1,10 @@
 <plugin>
-  <nom>Fondation SPIP</nom>
+  <nom>Fondation3 - compass</nom>
   <auteur>Vertige asbl</auteur>
   <licence>GNU/GPL</licence>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
   <description>
-    Un plugin qui jète de bonnes bases pour commencer un site spip !
+    Un plugin qui j&egrav;te de bonnes bases pour commencer un site spip ! Utilise le framework Foundation 3 avec compass.
   </description>
   <etat>dev</etat>
   <prefix>fondation</prefix>
