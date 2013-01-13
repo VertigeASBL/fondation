@@ -4,9 +4,28 @@ function fondation_jquery_plugins ($scripts) {
 
   // virer le jquery de spip, qu'on remplace par celui de Foundation, qui est plus
   // récent et minifié.
-  $jquery_location = find_in_path('javascripts/foundation/jquery.js');
-  $jquery_location = preg_replace('#^../#', '', $jquery_location);
-  $scripts[0] = $jquery_location;
+  $scripts[0] = "javascripts/foundation/jquery.js";
+
+  array_push($scripts, "javascripts/foundation/jquery.cookie.js");
+  array_push($scripts, "javascripts/foundation/jquery.event.move.js");
+  array_push($scripts, "javascripts/foundation/jquery.event.swipe.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.accordion.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.alerts.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.buttons.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.clearing.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.forms.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.joyride.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.magellan.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.mediaQueryToggle.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.navigation.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.orbit.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.reveal.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.tabs.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.tooltips.js");
+  array_push($scripts, "javascripts/foundation/jquery.foundation.topbar.js");
+  array_push($scripts, "javascripts/foundation/jquery.placeholder.js");
+
+  array_push($scripts, "javascripts/foundation/app.js");
 
   return $scripts;
 }
