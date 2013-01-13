@@ -30,9 +30,17 @@ et : https://github.com/Schepp/box-sizing-polyfill
 <meta name="viewport" content="width=device-width" />
 
 <!-- Included CSS Files -->
-<link rel="stylesheet" href="#CHEMIN{stylesheets/app.css}">
+[(#CONFIG{auto_compress_css}|=={oui}|oui)
+  [<link rel="stylesheet" href="(#CHEMIN{stylesheets/app.css}|compacte)">]
+][(#CONFIG{auto_compress_css}|=={oui}|non)
+  [<link rel="stylesheet" href="(#CHEMIN{stylesheets/app.css})">]
+]
 
-<script src="#CHEMIN{javascripts/foundation/modernizr.foundation.js}"></script>
+[(#CONFIG{auto_compress_js}|=={oui}|oui)
+  [<script src="(#CHEMIN{javascripts/foundation/modernizr.foundation.js}|compacte)"></script>]
+][(#CONFIG{auto_compress_js}|=={oui}|non)
+  [<script src="(#CHEMIN{javascripts/foundation/modernizr.foundation.js})"></script>]
+]
 
 <!-- IE Fix for HTML5 Tags -->
 <!--[if lt IE 9]>
