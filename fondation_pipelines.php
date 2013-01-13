@@ -25,8 +25,6 @@ function fondation_jquery_plugins ($scripts) {
   array_push($scripts, "javascripts/foundation/jquery.foundation.topbar.js");
   array_push($scripts, "javascripts/foundation/jquery.placeholder.js");
 
-  array_push($scripts, "javascripts/foundation/app.js");
-
   return $scripts;
 }
 

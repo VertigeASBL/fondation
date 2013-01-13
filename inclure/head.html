@@ -38,8 +38,10 @@ et : https://github.com/Schepp/box-sizing-polyfill
 
 [(#CONFIG{auto_compress_js}|=={oui}|oui)
   [<script src="(#CHEMIN{javascripts/foundation/modernizr.foundation.js}|compacte)"></script>]
+  [<script src="(#CHEMIN{javascripts/foundation/app.js}|compacte)"></script>]
 ][(#CONFIG{auto_compress_js}|=={oui}|non)
   [<script src="(#CHEMIN{javascripts/foundation/modernizr.foundation.js})"></script>]
+  [<script src="(#CHEMIN{javascripts/foundation/app.js})"></script>]
 ]
 
 <!-- IE Fix for HTML5 Tags -->
