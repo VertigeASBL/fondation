@@ -6,7 +6,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="#LANG"> <!--<![endif]-->
 	<head>
   	<INCLURE{fond=head/#ENV{type},env}>
-		<INCLURE{fond=inclure/head}>
+		<INCLURE{fond=inclure/head}{env}>
 	</head>
 	<body class="page_#ENV{type,page}[ #ENV{type,page}_(#ENV{composition,''})]">
 		<INCLURE{fond=body,env}>

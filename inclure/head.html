@@ -30,9 +30,11 @@
 <link rel="stylesheet" href="#CHEMIN{stylesheets/ie.css}">
 <![endif]-->
 
-[(#REM) il faut compacter ce fichier, sans quoi on a des bugs bizarres 
-        avec var_mode=inclure. Ne me demande pas pourquoi… ]
-<script src="#CHEMIN{javascripts/modernizr.foundation.js}|compacte"></script>
+[(#REM) Ce fichier ne passe pas avec var_mode=inclure.
+        Ne me demande pas pourquoi… ]
+[(#VAL{var_mode}|_request|!={inclure}|oui)
+  <script src="#CHEMIN{javascripts/modernizr.foundation.js}"></script>
+]
 
 <!-- IE Fix for HTML5 Tags -->
 <!--[if lt IE 9]>
