@@ -2,10 +2,6 @@
 
 function fondation_jquery_plugins ($scripts) {
 
-  // virer le jquery de spip, qu'on remplace par celui de Foundation, qui est plus
-  // récent et minifié.
-  $scripts[0] = "javascripts/foundation/jquery.js";
-
   array_push($scripts, "javascripts/foundation/jquery.cookie.js");
   array_push($scripts, "javascripts/foundation/jquery.event.move.js");
   array_push($scripts, "javascripts/foundation/jquery.event.swipe.js");
