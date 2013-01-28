@@ -54,6 +54,12 @@ et : https://github.com/Schepp/box-sizing-polyfill
   box-sizing: border-box;
   *behavior: url(#CHEMIN{iehacks/boxsizing.htc});
 }
+/* on évite de casser l'apparence de la mediabox de spip… */
+#colorbox {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
 </style>
 
 [(#REM) Balise permettant aux plugins d'inserer des fichiers CSS ]
