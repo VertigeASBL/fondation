@@ -20,6 +20,6 @@
   <pipeline nom="jquery_plugins" inclure="fondation_pipelines.php"/>
   <pipeline nom="insert_head" inclure="fondation_pipelines.php" />
 
-	<necessite nom="Z" compatibilite="[1.7.17;[" />
+	<necessite nom="Z5" compatibilite="[2.0.1;[" />
 
 </paquet>
